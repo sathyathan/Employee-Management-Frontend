@@ -7,7 +7,7 @@ const Blogs = () => {
     fetchData();
   }, []);
   const fetchData = async () => {
-    const response = await fetch("http://localhost:5000/api/post/getposts");
+    const response = await fetch("https://employee-management-system-backend-upsd.onrender.com/api/post/getposts");
     const data = await response.json();
     setBlogs(data);
     console.log(data);
