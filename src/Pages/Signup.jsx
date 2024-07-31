@@ -50,9 +50,9 @@ const Signup = () => {
         <div className="flex-1">
           <div className="font-bold dark:text-white text-4xl">
             <span className="px-2 py-1 bg-gradient-to-r from-violet-600 via-fuchsia-700 to-pink-500 rounded-lg text-white">
-              Employee
+              Blog 
             </span>
-            Profile!
+            Tech!
           </div>
           <p className="text-sm mt-6">
             You can sign up with your Email and password or you can use the

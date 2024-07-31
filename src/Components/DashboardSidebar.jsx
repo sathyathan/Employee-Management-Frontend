@@ -52,6 +52,13 @@ const DashboardSidebar = () => {
           <Sidebar.Item
             icon={HiArrowSmRight}
             className="cursor-pointer"
+            onClick={handleAttendance}
+          >
+            attendance
+          </Sidebar.Item>
+          <Sidebar.Item
+            icon={HiArrowSmRight}
+            className="cursor-pointer"
             onClick={handleSignout}
           >
             Sign Out
